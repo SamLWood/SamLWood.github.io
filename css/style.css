@@ -20,7 +20,7 @@ header .subheading1 {
 html {
 	background-color: #f2f2f2;
 	font-family: serif;
-	font-size: 1.2vmax;
+	font-size: 1vmax;
 	height: 100%;
 }
 .flexrow {
@@ -37,8 +37,8 @@ html {
 }
 #face {
 	align-self: center;
-	border: 0.4vw solid #808080;
-	border-radius: 9vw;
+	border: 0.3vw solid #808080;
+	border-radius: 8vw;
 	max-width: 100%;
 }
 #mainpage {
@@ -56,7 +56,7 @@ html {
 	color: #000000;
 	display: block;
 	font-weight: bold;
-	padding: 2vh 2vw;
+	padding: 2vh 1.8vw;
 	text-decoration: none;
 }
 #navbar .navcurrent {
@@ -64,12 +64,12 @@ html {
 	display: block;
 	font-style: italic;
 	font-weight: bold;
-	padding: 2vh 2vw;
+	padding: 2vh 1.8vw;
 }
 #sidebar {
 	background-color: #cccccc;
 	border-radius: 1.2vmax;
-	flex: 0 1 18vw;
+	flex: 0 1 16vw;
 	margin: 1.2vmax;
 	padding: 1.2vmax 1.6vmax;
 }
