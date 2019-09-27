@@ -50,13 +50,13 @@ html {
 }
 #navbar {
 	background-color: #cccccc;
-	min-width: 10vw;
+	width: 10vmax;
 }
 #navbar .navlink {
 	color: #000000;
 	display: block;
 	font-weight: bold;
-	padding: 2vh 1.8vw;
+	padding: 2vh 1.8vmax;
 	text-decoration: none;
 }
 #navbar .navcurrent {
@@ -64,7 +64,7 @@ html {
 	display: block;
 	font-style: italic;
 	font-weight: bold;
-	padding: 2vh 1.8vw;
+	padding: 2vh 1.8vmax;
 }
 #sidebar {
 	background-color: #cccccc;
