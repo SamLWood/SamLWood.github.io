@@ -1,45 +1,70 @@
 body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	margin: 0;
 }
 header {
 	background-color: #cc0000;
 	color: #ffffff;
-	padding-bottom: 1px;
-	padding-left: 16px;
-	padding-top: 1px;
+	flex: none;
+	padding: 1px 16px;
 }
 header h1 {
-	margin-bottom: 16px;
-	margin-top: 16px;
+	margin: 16px 0px;
 }
 header .subheading1 {
 	display: block;
 	font-style: italic;
 	font-weight: bold;
-	margin-bottom: 16px;
+	margin: 16px 0px;
 }
 html {
 	background-color: #f2f2f2;
 	font-family: serif;
+	height: 100%;
+}
+#pagebody {
+	display: flex;
+	flex: auto;
+	height: auto;
 }
 #face {
 	border: 4px solid #808080;
 	border-radius: 128px;
 	width: 256px;
 }
-#page-body {
-	float: left;
-	margin-left: 16px;
-	margin-right: 328px;
+#mainpage {
+	flex: auto;
+	margin: 0px 16px;
+}
+#mainpage h1 {
+	font-weight: normal;
+}
+#navbar {
+	background-color: #cccccc;
+	min-width: 120px
+}
+#navbar .navlink {
+	color: #000000;
+	display: block;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+#navbar .navcurrent {
+	background-color: #aaaaaa;
+	display: block;
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 20px;
 }
 #sidebar {
 	background-color: #cccccc;
 	border-radius: 16px;
-	right: 0;
+	flex: none;
 	margin: 16px;
-	max-width: 264px;
 	padding: 16px;
-	position: absolute;
 }
 #sidebar h1 {
 	font-size: 24px;
