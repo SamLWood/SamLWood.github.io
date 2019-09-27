@@ -56,7 +56,7 @@ html {
 	color: #000000;
 	display: block;
 	font-weight: bold;
-	padding: 2vh 1vw;
+	padding: 2vh 2vw;
 	text-decoration: none;
 }
 #navbar .navcurrent {
@@ -64,7 +64,7 @@ html {
 	display: block;
 	font-style: italic;
 	font-weight: bold;
-	padding: 2vh 1vw;
+	padding: 2vh 2vw;
 }
 #sidebar {
 	background-color: #cccccc;
