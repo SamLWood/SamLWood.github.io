@@ -1,6 +1,5 @@
 body {
 	height: 100%;
-	margin: 0;
 }
 header {
 	background-color: #cc0000;
@@ -8,14 +7,11 @@ header {
 	flex: none;
 	padding: 0 1.6vw;
 }
-header h1 {
-	margin: 2vh 0;
-}
 header .subheading1 {
 	display: block;
 	font-style: italic;
 	font-weight: bold;
-	margin: 2vh 0;
+	margin: 1.33em 0;
 }
 html {
 	background-color: #f2f2f2;
