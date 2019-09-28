@@ -38,7 +38,8 @@ html {
 	align-self: center;
 	border: 0.3vw solid #808080;
 	border-radius: 8vw;
-	max-width: 100%;
+	max-height: 16vw;
+	max-width: 16vw;
 }
 #mainpage {
 	flex: auto;
@@ -71,7 +72,7 @@ html {
 	border-radius: 1.2vmax;
 	flex: 0 1 16vw;
 	margin: 1.2vmax;
-	padding: 1.2vmax 1.6vmax;
+	padding: 1.2vmax;
 }
 #sidebar h1 {
 	font-size: 150%;
