@@ -33,7 +33,6 @@ html {
 }
 #pagebody {
 	flex: auto;
-	height: auto;
 }
 #face {
 	align-self: center;
@@ -67,6 +66,7 @@ html {
 	padding: 2vh 1.8vmax;
 }
 #sidebar {
+	align-self: flex-start;
 	background-color: #cccccc;
 	border-radius: 1.2vmax;
 	flex: 0 1 16vw;
