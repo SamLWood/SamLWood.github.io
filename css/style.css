@@ -7,7 +7,7 @@ header {
 	flex: none;
 	padding: 0 1.8vmax;
 }
-header .subheading1 {
+header #subtitle {
 	font-style: italic;
 	font-weight: bold;
 	margin: 1.33em 0;
@@ -30,10 +30,11 @@ html {
 	flex: auto;
 }
 #face {
+	background-color: #808080;
 	align-self: center;
-	border: 0.3vw solid #808080;
-	border-radius: 8vw;
-	max-width: 16vw;
+	border-radius: 50%;
+	padding: 1.5%;
+	max-width: 100%;
 }
 #mainpage {
 	flex: auto;
@@ -62,10 +63,11 @@ html {
 	padding: 2vh 1.8vmax;
 }
 #sidebar {
-	align-self: flex-start;
 	background-color: #cccccc;
-	border-radius: 1.2vmax;
-	flex: 0 1 16vw;
-	margin: 1.2vmax;
-	padding: 1.2vmax;
+	border-radius: 6%;
+	margin: 6%;
+	padding: 6%;
+}
+#sidebar-container {
+	flex: 0 1 21vw;
 }
