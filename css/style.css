@@ -5,10 +5,9 @@ header {
 	background-color: #cc0000;
 	color: #ffffff;
 	flex: none;
-	padding: 0 1.6vw;
+	padding: 0 1.8vmax;
 }
 header .subheading1 {
-	display: block;
 	font-style: italic;
 	font-weight: bold;
 	margin: 1.33em 0;
