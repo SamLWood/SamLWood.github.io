@@ -38,18 +38,17 @@ html {
 	align-self: center;
 	border: 0.3vw solid #808080;
 	border-radius: 8vw;
+	display: block;
 	max-width: 16vw;
 }
 #mainpage {
 	flex: auto;
-	margin: 0 1vw;
-}
-#mainpage h1 {
-	font-weight: normal;
+	margin: 0 1.8vw;
 }
 #navbar {
 	background-color: #cccccc;
-	width: 10vmax;
+	flex: none;
+	min-width: 10vmax;
 }
 #navbar .navlink {
 	color: #000000;
