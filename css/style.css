@@ -14,7 +14,7 @@ header #subtitle {
 }
 html {
 	background-color: #f2f2f2;
-	font-family: serif;
+	font-family: 'IBM Plex Serif';
 	font-size: 1.1vmax;
 	height: 100%;
 }
@@ -38,7 +38,7 @@ html {
 }
 #mainpage {
 	flex: auto;
-	margin: 0 1.8vw;
+	margin: 0 1.67em;
 }
 #navbar {
 	background-color: #cccccc;
@@ -69,5 +69,5 @@ html {
 	padding: 6%;
 }
 #sidebar-container {
-	flex: 0 1 21vw;
+	flex: 0 0 21vw;
 }
