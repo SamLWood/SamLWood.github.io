@@ -1,0 +1,2 @@
+User-agent: *
+SITEMAP: https://www.samwood.org/sitemap.xml
